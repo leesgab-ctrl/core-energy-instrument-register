@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1830" />
+  <meta name="description" content="코아에너지 계측기관리대장 공개 조회" />
+  <link rel="icon" href="./company-logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>코아에너지 계측기관리대장</title>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><img src="./company-logo.svg" alt="코아에너지" /><div><strong>코아에너지 계측기관리대장</strong><span>PUBLIC VIEW · 조회 전용</span></div></div>
+    <div class="published"><i></i><span id="publishedAt">데이터 확인 중</span></div>
+  </header>
+  <main>
+    <section class="summary" aria-label="계측기 현황 요약">
+      <div><span>등록 장비</span><strong id="totalCount">-</strong><small>대</small></div>
+      <div><span>검교정 임박</span><strong class="amber" id="dueSoonCount">-</strong><small>대</small></div>
+      <div><span>기한 경과</span><strong class="red" id="overdueCount">-</strong><small>대</small></div>
+    </section>
+    <section class="panel">
+      <div class="panel-head"><div><p>INSTRUMENTS</p><h1>장비 현황</h1></div><button id="excelButton" type="button">엑셀 내려받기</button></div>
+      <div class="search"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="장비번호, 장비명, 시리얼번호, 보유자, 모델번호, 제조회사 검색" /><small id="resultCount"></small></div>
+      <div class="table-wrap"><table><thead><tr><th>장비번호</th><th>장비명</th><th>시리얼번호</th><th>보유자/보관장소</th><th>최근 검교정일</th><th>차기 검교정일</th><th>상태</th></tr></thead><tbody id="rows"></tbody></table></div>
+      <div class="cards" id="cards"></div>
+      <div class="empty" id="empty" hidden>검색 결과가 없습니다.</div>
+    </section>
+  </main>
+  <dialog id="detailDialog">
+    <header><div><p>EQUIPMENT CARD</p><h2 id="detailTitle"></h2></div><button class="close" type="button" aria-label="닫기">×</button></header>
+    <div id="detailBody"></div>
+  </dialog>
+  <div class="toast" id="toast" role="status"></div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

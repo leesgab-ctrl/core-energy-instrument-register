@@ -1,0 +1,924 @@
+{
+  "version": 1,
+  "publishedAt": "2026-10-11T06:26:25.258Z",
+  "instruments": [
+    {
+      "id": "seed-cha-1-1",
+      "categoryCode": "차-1",
+      "name": "적외선 온도계",
+      "no": "차-1-1",
+      "serial": "90500195",
+      "owner": "진단2팀",
+      "model": "RayngerST",
+      "maker": "Raytek",
+      "recent": "2025-01-10",
+      "next": "2027-01-10",
+      "createdAt": "2026-09-21T00:00:00.000Z",
+      "updatedAt": "2026-09-21T12:04:55.603Z"
+    },
+    {
+      "id": "seed-da-1-1",
+      "categoryCode": "다-1",
+      "name": "디지털 압력계",
+      "no": "다-1-1",
+      "serial": "I.615258",
+      "owner": "진단2팀",
+      "model": "PS-9302",
+      "maker": "Lutron",
+      "recent": "2026-06-08",
+      "next": "2028-06-08",
+      "createdAt": "2026-09-21T00:00:00.000Z",
+      "updatedAt": "2026-09-21T11:49:37.743Z"
+    },
+    {
+      "id": "seed-da-1-2",
+      "categoryCode": "다-1",
+      "name": "디지털 압력계",
+      "no": "다-1-2",
+      "serial": "H.76324",
+      "owner": "진단2팀",
+      "model": "PS-9302(PS100-50Bar)",
+      "maker": "Lutron",
+      "recent": "2025-01-02",
+      "next": "2027-01-02",
+      "createdAt": "2026-09-21T00:00:00.000Z",
+      "updatedAt": "2026-09-21T11:58:23.190Z"
+    },
+    {
+      "id": "seed-ga-1-1",
+      "categoryCode": "가-1",
+      "name": "적외선 열화상 카메라",
+      "no": "가-1-1",
+      "serial": "EA2609502",
+      "owner": "진단2팀",
+      "model": "HM-TP51-3AQF/W-B10",
+      "maker": "HIKMICRO",
+      "recent": "2026-01-15",
+      "next": "2027-01-15",
+      "createdAt": "2026-09-21T00:00:00.000Z",
+      "updatedAt": "2026-09-21T11:43:47.611Z"
+    },
+    {
+      "id": "seed-ha-1-1",
+      "categoryCode": "하-1",
+      "name": "교류전력 측정기",
+      "no": "하-1-1",
+      "serial": "H12C-H15755",
+      "owner": "에너지진단2팀",
+      "model": "PM2205",
+      "maker": "PEAKMETER",
+      "recent": "2026-07-06",
+      "next": "2027-07-06",
+      "createdAt": "2026-09-21T00:00:00.000Z",
+      "updatedAt": "2026-09-21T12:06:27.071Z"
+    },
+    {
+      "id": "seed-ka-1-1",
+      "categoryCode": "카-1",
+      "name": "디지털 풍속계",
+      "no": "카-1-1",
+      "serial": "T95152317013",
+      "owner": "에너지진단2팀",
+      "model": "9515",
+      "maker": "TSI",
+      "recent": "2026-07-23",
+      "next": "2027-07-23",
+      "createdAt": "2026-09-21T00:00:00.000Z",
+      "updatedAt": "2026-09-21T12:05:46.227Z"
+    },
+    {
+      "id": "seed-ma-1-2",
+      "categoryCode": "마-1",
+      "name": "온·습도계",
+      "no": "마-1-2",
+      "serial": "051003535",
+      "owner": "에너지진단2팀",
+      "model": "1364",
+      "maker": "TES",
+      "recent": "2025-12-11",
+      "next": "2026-12-11",
+      "createdAt": "2026-09-21T00:00:00.000Z",
+      "updatedAt": "2026-09-21T12:03:27.537Z"
+    },
+    {
+      "id": "seed-na-1-2",
+      "categoryCode": "나-1",
+      "name": "초음파 유량계",
+      "no": "나-1-2",
+      "serial": "2460R",
+      "owner": "진단1팀",
+      "model": "UFP-10",
+      "maker": "TOKIMEC",
+      "recent": "2025-12-12",
+      "next": "2026-12-12",
+      "createdAt": "2026-09-21T00:00:00.000Z",
+      "updatedAt": "2026-09-21T11:47:04.082Z"
+    },
+    {
+      "id": "seed-na-1-3",
+      "categoryCode": "나-1",
+      "name": "초음파 유량계",
+      "no": "나-1-3",
+      "serial": "7814A059H",
+      "owner": "진단1팀",
+      "model": "TUF-2000H",
+      "maker": "TSONIC",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-21T00:00:00.000Z",
+      "updatedAt": "2026-09-21T00:00:00.000Z"
+    },
+    {
+      "id": "seed-ra-1-1",
+      "categoryCode": "라-1",
+      "name": "데이터 기록계",
+      "no": "라-1-1",
+      "serial": "I.437668",
+      "owner": "에너지진단2팀",
+      "model": "BTM-4208SD",
+      "maker": "LUTRON",
+      "recent": "2025-08-07",
+      "next": "2027-08-07",
+      "createdAt": "2026-09-21T00:00:00.000Z",
+      "updatedAt": "2026-09-21T11:59:59.550Z"
+    },
+    {
+      "id": "seed-ra-1-2",
+      "categoryCode": "라-1",
+      "name": "데이터 기록계",
+      "no": "라-1-2",
+      "serial": "719113",
+      "owner": "에너지진단2팀",
+      "model": "DB 5300",
+      "maker": "FOURIER",
+      "recent": "2025-01-02",
+      "next": "2027-01-02",
+      "createdAt": "2026-09-21T00:00:00.000Z",
+      "updatedAt": "2026-09-21T12:02:24.175Z"
+    },
+    {
+      "id": "import-20260922-거-1-1",
+      "categoryCode": "거-1",
+      "name": "조도계",
+      "no": "거-1-1",
+      "serial": "960236",
+      "owner": "진단3팀",
+      "model": "DX200",
+      "maker": "INS",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    },
+    {
+      "id": "import-20260922-나-1-1",
+      "categoryCode": "나-1",
+      "name": "초음파 유량계",
+      "no": "나-1-1",
+      "serial": "2500050",
+      "owner": "진단1팀",
+      "model": "TUF-2000H",
+      "maker": "Hantai Tech.",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    },
+    {
+      "id": "import-20260922-너-1-1",
+      "categoryCode": "너-1",
+      "name": "회전계",
+      "no": "너-1-1",
+      "serial": "0736084",
+      "owner": "진단3팀",
+      "model": "TESTO 470",
+      "maker": "TESTO",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    },
+    {
+      "id": "import-20260922-마-1-1",
+      "categoryCode": "마-1",
+      "name": "온·습도계",
+      "no": "마-1-1",
+      "serial": "01430466",
+      "owner": "진단1팀",
+      "model": "TESTO 625",
+      "maker": "TESTO",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    },
+    {
+      "id": "import-20260922-바-1-1",
+      "categoryCode": "바-1",
+      "name": "연소가스 분석기",
+      "no": "바-1-1",
+      "serial": "01431864/711",
+      "owner": "진단1팀",
+      "model": "TESTO 330-2",
+      "maker": "TESTO",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    },
+    {
+      "id": "import-20260922-바-1-2",
+      "categoryCode": "바-1",
+      "name": "연소가스 분석기",
+      "no": "바-1-2",
+      "serial": "01431856/711",
+      "owner": "진단1팀",
+      "model": "TESTO 330-2",
+      "maker": "TESTO",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    },
+    {
+      "id": "import-20260922-사-1-1",
+      "categoryCode": "사-1",
+      "name": "표준 온도계",
+      "no": "사-1-1",
+      "serial": "22496, 21228, 22458, 23125, 22284, 22326, 22356, 21946",
+      "owner": "진단2팀",
+      "model": "DK2000",
+      "maker": "대광계기계측",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    },
+    {
+      "id": "import-20260922-아-1-1",
+      "categoryCode": "아-1",
+      "name": "온도계",
+      "no": "아-1-1",
+      "serial": "33727184/611",
+      "owner": "진단2팀",
+      "model": "TESTO 925",
+      "maker": "TESTO",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    },
+    {
+      "id": "import-20260922-아-1-2",
+      "categoryCode": "아-1",
+      "name": "온도계",
+      "no": "아-1-2",
+      "serial": "33729815/612",
+      "owner": "진단2팀",
+      "model": "TESTO 925",
+      "maker": "TESTO",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    },
+    {
+      "id": "import-20260922-자-1-1",
+      "categoryCode": "자-1",
+      "name": "고온용 온도계",
+      "no": "자-1-1",
+      "serial": "07031670024",
+      "owner": "진단2팀",
+      "model": "SDT-142S",
+      "maker": "SUMMIT",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    },
+    {
+      "id": "import-20260922-자-1-2",
+      "categoryCode": "자-1",
+      "name": "고온용 온도계",
+      "no": "자-1-2",
+      "serial": "07031670033",
+      "owner": "진단2팀",
+      "model": "SDT-142S",
+      "maker": "SUMMIT",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    },
+    {
+      "id": "import-20260922-카-1-2",
+      "categoryCode": "카-1",
+      "name": "디지털 풍속계",
+      "no": "카-1-2",
+      "serial": "9555P0737010",
+      "owner": "진단2팀",
+      "model": "9555-P",
+      "maker": "TSI",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    },
+    {
+      "id": "import-20260922-타-1-2",
+      "categoryCode": "타-1",
+      "name": "디지털 풍압계",
+      "no": "타-1-2",
+      "serial": "T58250738001",
+      "owner": "진단3팀",
+      "model": "TSI 5825",
+      "maker": "TSI",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    },
+    {
+      "id": "import-20260922-파-1-1",
+      "categoryCode": "파-1",
+      "name": "전력 분석계",
+      "no": "파-1-1",
+      "serial": "070521050",
+      "owner": "진단3팀",
+      "model": "TES-3600",
+      "maker": "TES",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    },
+    {
+      "id": "import-20260922-파-1-2",
+      "categoryCode": "파-1",
+      "name": "전력 분석계",
+      "no": "파-1-2",
+      "serial": "070521071",
+      "owner": "진단3팀",
+      "model": "TES-3600",
+      "maker": "TES",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    },
+    {
+      "id": "import-20260922-하-1-2",
+      "categoryCode": "하-1",
+      "name": "교류전력 측정기",
+      "no": "하-1-2",
+      "serial": "03390484",
+      "owner": "진단3팀",
+      "model": "6601",
+      "maker": "PROVA",
+      "recent": "",
+      "next": "",
+      "createdAt": "2026-09-22T09:30:09.671Z",
+      "updatedAt": "2026-09-22T09:30:09.671Z"
+    }
+  ],
+  "categories": [
+    {
+      "code": "가-1",
+      "basis": "가-1",
+      "name": "적외선 열화상 카메라",
+      "months": 12
+    },
+    {
+      "code": "거-1",
+      "basis": "거-1",
+      "name": "조도계",
+      "months": 24
+    },
+    {
+      "code": "나-1",
+      "basis": "나-1",
+      "name": "초음파 유량계",
+      "months": 12
+    },
+    {
+      "code": "너-1",
+      "basis": "너-1",
+      "name": "회전계",
+      "months": 0
+    },
+    {
+      "code": "다-1",
+      "basis": "다-1",
+      "name": "디지털 압력계",
+      "months": 24
+    },
+    {
+      "code": "라-1",
+      "basis": "라-1",
+      "name": "데이터 기록계",
+      "months": 24
+    },
+    {
+      "code": "마-1",
+      "basis": "마-1",
+      "name": "온·습도계",
+      "months": 12
+    },
+    {
+      "code": "바-1",
+      "basis": "바-1",
+      "name": "연소가스 분석기",
+      "months": 12
+    },
+    {
+      "code": "사-1",
+      "basis": "사-1",
+      "name": "표준 온도계",
+      "months": 0
+    },
+    {
+      "code": "아-1",
+      "basis": "아-1",
+      "name": "온도계",
+      "months": 12
+    },
+    {
+      "code": "자-1",
+      "basis": "자-1",
+      "name": "고온용 온도계",
+      "months": 12
+    },
+    {
+      "code": "차-1",
+      "basis": "차-1",
+      "name": "적외선 온도계",
+      "months": 24
+    },
+    {
+      "code": "카-1",
+      "basis": "카-1",
+      "name": "디지털 풍속계",
+      "months": 12
+    },
+    {
+      "code": "타-1",
+      "basis": "타-1",
+      "name": "디지털 풍압계",
+      "months": 24
+    },
+    {
+      "code": "파-1",
+      "basis": "파-1",
+      "name": "전력 분석계",
+      "months": 12
+    },
+    {
+      "code": "하-1",
+      "basis": "하-1",
+      "name": "교류전력 측정기",
+      "months": 12
+    }
+  ],
+  "attachments": [
+    {
+      "id": "seed-file:가-1-1:가-1-1_대표사진.png",
+      "equipmentId": "seed-ga-1-1",
+      "name": "가-1-1_대표사진.png",
+      "type": "image/png",
+      "size": 401882,
+      "path": "./files/가-1-1_가-1-1_대표사진.png"
+    },
+    {
+      "id": "seed-file:가-1-1:가-1-1_장비이력카드.pdf",
+      "equipmentId": "seed-ga-1-1",
+      "name": "가-1-1_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 294837,
+      "path": "./files/가-1-1_가-1-1_장비이력카드.pdf"
+    },
+    {
+      "id": "seed-file:나-1-2:나-1-2_대표사진.png",
+      "equipmentId": "seed-na-1-2",
+      "name": "나-1-2_대표사진.png",
+      "type": "image/png",
+      "size": 1351827,
+      "path": "./files/나-1-2_나-1-2_대표사진.png"
+    },
+    {
+      "id": "seed-file:나-1-2:나-1-2_장비이력카드.pdf",
+      "equipmentId": "seed-na-1-2",
+      "name": "나-1-2_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 292564,
+      "path": "./files/나-1-2_나-1-2_장비이력카드.pdf"
+    },
+    {
+      "id": "seed-file:나-1-3:나-1-3_대표사진.png",
+      "equipmentId": "seed-na-1-3",
+      "name": "나-1-3_대표사진.png",
+      "type": "image/png",
+      "size": 336559,
+      "path": "./files/나-1-3_나-1-3_대표사진.png"
+    },
+    {
+      "id": "seed-file:나-1-3:나-1-3_장비이력카드.pdf",
+      "equipmentId": "seed-na-1-3",
+      "name": "나-1-3_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 177714,
+      "path": "./files/나-1-3_나-1-3_장비이력카드.pdf"
+    },
+    {
+      "id": "seed-file:다-1-1:다-1-1_대표사진.png",
+      "equipmentId": "seed-da-1-1",
+      "name": "다-1-1_대표사진.png",
+      "type": "image/png",
+      "size": 310301,
+      "path": "./files/다-1-1_다-1-1_대표사진.png"
+    },
+    {
+      "id": "seed-file:다-1-1:다-1-1_장비변경명세서.pdf",
+      "equipmentId": "seed-da-1-1",
+      "name": "다-1-1_장비변경명세서.pdf",
+      "type": "application/pdf",
+      "size": 92629,
+      "path": "./files/다-1-1_다-1-1_장비변경명세서.pdf"
+    },
+    {
+      "id": "seed-file:다-1-1:다-1-1_장비이력카드.pdf",
+      "equipmentId": "seed-da-1-1",
+      "name": "다-1-1_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 88252,
+      "path": "./files/다-1-1_다-1-1_장비이력카드.pdf"
+    },
+    {
+      "id": "seed-file:다-1-2:다-1-2_대표사진.png",
+      "equipmentId": "seed-da-1-2",
+      "name": "다-1-2_대표사진.png",
+      "type": "image/png",
+      "size": 120969,
+      "path": "./files/다-1-2_다-1-2_대표사진.png"
+    },
+    {
+      "id": "seed-file:다-1-2:다-1-2_장비이력카드.pdf",
+      "equipmentId": "seed-da-1-2",
+      "name": "다-1-2_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 79751,
+      "path": "./files/다-1-2_다-1-2_장비이력카드.pdf"
+    },
+    {
+      "id": "seed-file:라-1-1:라-1-1_대표사진.png",
+      "equipmentId": "seed-ra-1-1",
+      "name": "라-1-1_대표사진.png",
+      "type": "image/png",
+      "size": 1163829,
+      "path": "./files/라-1-1_라-1-1_대표사진.png"
+    },
+    {
+      "id": "seed-file:라-1-1:라-1-1_장비이력카드.pdf",
+      "equipmentId": "seed-ra-1-1",
+      "name": "라-1-1_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 743171,
+      "path": "./files/라-1-1_라-1-1_장비이력카드.pdf"
+    },
+    {
+      "id": "seed-file:라-1-2:라-1-2_대표사진.png",
+      "equipmentId": "seed-ra-1-2",
+      "name": "라-1-2_대표사진.png",
+      "type": "image/png",
+      "size": 922386,
+      "path": "./files/라-1-2_라-1-2_대표사진.png"
+    },
+    {
+      "id": "seed-file:라-1-2:라-1-2_장비이력카드.pdf",
+      "equipmentId": "seed-ra-1-2",
+      "name": "라-1-2_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 264155,
+      "path": "./files/라-1-2_라-1-2_장비이력카드.pdf"
+    },
+    {
+      "id": "seed-file:마-1-2:마-1-2_대표사진.png",
+      "equipmentId": "seed-ma-1-2",
+      "name": "마-1-2_대표사진.png",
+      "type": "image/png",
+      "size": 955493,
+      "path": "./files/마-1-2_마-1-2_대표사진.png"
+    },
+    {
+      "id": "seed-file:마-1-2:마-1-2_장비이력카드.pdf",
+      "equipmentId": "seed-ma-1-2",
+      "name": "마-1-2_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 281716,
+      "path": "./files/마-1-2_마-1-2_장비이력카드.pdf"
+    },
+    {
+      "id": "seed-file:차-1-1:차-1-1_대표사진.png",
+      "equipmentId": "seed-cha-1-1",
+      "name": "차-1-1_대표사진.png",
+      "type": "image/png",
+      "size": 984078,
+      "path": "./files/차-1-1_차-1-1_대표사진.png"
+    },
+    {
+      "id": "seed-file:차-1-1:차-1-1_장비이력카드.pdf",
+      "equipmentId": "seed-cha-1-1",
+      "name": "차-1-1_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 146879,
+      "path": "./files/차-1-1_차-1-1_장비이력카드.pdf"
+    },
+    {
+      "id": "seed-file:카-1-1:카-1-1_대표사진.png",
+      "equipmentId": "seed-ka-1-1",
+      "name": "카-1-1_대표사진.png",
+      "type": "image/png",
+      "size": 1010185,
+      "path": "./files/카-1-1_카-1-1_대표사진.png"
+    },
+    {
+      "id": "seed-file:카-1-1:카-1-1_장비이력카드.pdf",
+      "equipmentId": "seed-ka-1-1",
+      "name": "카-1-1_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 135190,
+      "path": "./files/카-1-1_카-1-1_장비이력카드.pdf"
+    },
+    {
+      "id": "seed-file:하-1-1:하-1-1_대표사진.png",
+      "equipmentId": "seed-ha-1-1",
+      "name": "하-1-1_대표사진.png",
+      "type": "image/png",
+      "size": 318447,
+      "path": "./files/하-1-1_하-1-1_대표사진.png"
+    },
+    {
+      "id": "seed-file:하-1-1:하-1-1_장비이력카드.pdf",
+      "equipmentId": "seed-ha-1-1",
+      "name": "하-1-1_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 90838,
+      "path": "./files/하-1-1_하-1-1_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-거-1-1-pdf",
+      "equipmentId": "import-20260922-거-1-1",
+      "name": "거-1-1_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 57943,
+      "path": "./files/거-1-1_거-1-1_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-거-1-1-photo",
+      "equipmentId": "import-20260922-거-1-1",
+      "name": "거-1-1_대표사진.png",
+      "type": "image/png",
+      "size": 158638,
+      "path": "./files/거-1-1_거-1-1_대표사진.png"
+    },
+    {
+      "id": "import-file-20260922-나-1-1-pdf",
+      "equipmentId": "import-20260922-나-1-1",
+      "name": "나-1-1_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 71576,
+      "path": "./files/나-1-1_나-1-1_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-나-1-1-photo",
+      "equipmentId": "import-20260922-나-1-1",
+      "name": "나-1-1_대표사진.png",
+      "type": "image/png",
+      "size": 342003,
+      "path": "./files/나-1-1_나-1-1_대표사진.png"
+    },
+    {
+      "id": "import-file-20260922-너-1-1-pdf",
+      "equipmentId": "import-20260922-너-1-1",
+      "name": "너-1-1_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 61727,
+      "path": "./files/너-1-1_너-1-1_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-너-1-1-photo",
+      "equipmentId": "import-20260922-너-1-1",
+      "name": "너-1-1_대표사진.png",
+      "type": "image/png",
+      "size": 184171,
+      "path": "./files/너-1-1_너-1-1_대표사진.png"
+    },
+    {
+      "id": "import-file-20260922-마-1-1-pdf",
+      "equipmentId": "import-20260922-마-1-1",
+      "name": "마-1-1_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 60432,
+      "path": "./files/마-1-1_마-1-1_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-마-1-1-photo",
+      "equipmentId": "import-20260922-마-1-1",
+      "name": "마-1-1_대표사진.png",
+      "type": "image/png",
+      "size": 195470,
+      "path": "./files/마-1-1_마-1-1_대표사진.png"
+    },
+    {
+      "id": "import-file-20260922-바-1-1-pdf",
+      "equipmentId": "import-20260922-바-1-1",
+      "name": "바-1-1_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 59093,
+      "path": "./files/바-1-1_바-1-1_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-바-1-1-photo",
+      "equipmentId": "import-20260922-바-1-1",
+      "name": "바-1-1_대표사진.png",
+      "type": "image/png",
+      "size": 224111,
+      "path": "./files/바-1-1_바-1-1_대표사진.png"
+    },
+    {
+      "id": "import-file-20260922-바-1-2-pdf",
+      "equipmentId": "import-20260922-바-1-2",
+      "name": "바-1-2_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 58838,
+      "path": "./files/바-1-2_바-1-2_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-바-1-2-photo",
+      "equipmentId": "import-20260922-바-1-2",
+      "name": "바-1-2_대표사진.png",
+      "type": "image/png",
+      "size": 223703,
+      "path": "./files/바-1-2_바-1-2_대표사진.png"
+    },
+    {
+      "id": "import-file-20260922-사-1-1-pdf",
+      "equipmentId": "import-20260922-사-1-1",
+      "name": "사-1-1_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 61099,
+      "path": "./files/사-1-1_사-1-1_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-사-1-1-photo",
+      "equipmentId": "import-20260922-사-1-1",
+      "name": "사-1-1_대표사진.png",
+      "type": "image/png",
+      "size": 219932,
+      "path": "./files/사-1-1_사-1-1_대표사진.png"
+    },
+    {
+      "id": "import-file-20260922-아-1-1-pdf",
+      "equipmentId": "import-20260922-아-1-1",
+      "name": "아-1-1_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 62066,
+      "path": "./files/아-1-1_아-1-1_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-아-1-1-photo",
+      "equipmentId": "import-20260922-아-1-1",
+      "name": "아-1-1_대표사진.png",
+      "type": "image/png",
+      "size": 204148,
+      "path": "./files/아-1-1_아-1-1_대표사진.png"
+    },
+    {
+      "id": "import-file-20260922-아-1-2-pdf",
+      "equipmentId": "import-20260922-아-1-2",
+      "name": "아-1-2_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 61957,
+      "path": "./files/아-1-2_아-1-2_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-아-1-2-photo",
+      "equipmentId": "import-20260922-아-1-2",
+      "name": "아-1-2_대표사진.png",
+      "type": "image/png",
+      "size": 202366,
+      "path": "./files/아-1-2_아-1-2_대표사진.png"
+    },
+    {
+      "id": "import-file-20260922-자-1-1-pdf",
+      "equipmentId": "import-20260922-자-1-1",
+      "name": "자-1-1_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 57502,
+      "path": "./files/자-1-1_자-1-1_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-자-1-1-photo",
+      "equipmentId": "import-20260922-자-1-1",
+      "name": "자-1-1_대표사진.png",
+      "type": "image/png",
+      "size": 177451,
+      "path": "./files/자-1-1_자-1-1_대표사진.png"
+    },
+    {
+      "id": "import-file-20260922-자-1-2-pdf",
+      "equipmentId": "import-20260922-자-1-2",
+      "name": "자-1-2_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 58575,
+      "path": "./files/자-1-2_자-1-2_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-자-1-2-photo",
+      "equipmentId": "import-20260922-자-1-2",
+      "name": "자-1-2_대표사진.png",
+      "type": "image/png",
+      "size": 179331,
+      "path": "./files/자-1-2_자-1-2_대표사진.png"
+    },
+    {
+      "id": "import-file-20260922-카-1-2-pdf",
+      "equipmentId": "import-20260922-카-1-2",
+      "name": "카-1-2_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 63813,
+      "path": "./files/카-1-2_카-1-2_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-카-1-2-photo",
+      "equipmentId": "import-20260922-카-1-2",
+      "name": "카-1-2_대표사진.png",
+      "type": "image/png",
+      "size": 239406,
+      "path": "./files/카-1-2_카-1-2_대표사진.png"
+    },
+    {
+      "id": "import-file-20260922-타-1-2-pdf",
+      "equipmentId": "import-20260922-타-1-2",
+      "name": "타-1-2_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 61770,
+      "path": "./files/타-1-2_타-1-2_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-타-1-2-photo",
+      "equipmentId": "import-20260922-타-1-2",
+      "name": "타-1-2_대표사진.png",
+      "type": "image/png",
+      "size": 235686,
+      "path": "./files/타-1-2_타-1-2_대표사진.png"
+    },
+    {
+      "id": "import-file-20260922-파-1-1-pdf",
+      "equipmentId": "import-20260922-파-1-1",
+      "name": "파-1-1_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 64079,
+      "path": "./files/파-1-1_파-1-1_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-파-1-1-photo",
+      "equipmentId": "import-20260922-파-1-1",
+      "name": "파-1-1_대표사진.png",
+      "type": "image/png",
+      "size": 286989,
+      "path": "./files/파-1-1_파-1-1_대표사진.png"
+    },
+    {
+      "id": "import-file-20260922-파-1-2-pdf",
+      "equipmentId": "import-20260922-파-1-2",
+      "name": "파-1-2_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 67421,
+      "path": "./files/파-1-2_파-1-2_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-파-1-2-photo",
+      "equipmentId": "import-20260922-파-1-2",
+      "name": "파-1-2_대표사진.png",
+      "type": "image/png",
+      "size": 286937,
+      "path": "./files/파-1-2_파-1-2_대표사진.png"
+    },
+    {
+      "id": "import-file-20260922-하-1-2-pdf",
+      "equipmentId": "import-20260922-하-1-2",
+      "name": "하-1-2_장비이력카드.pdf",
+      "type": "application/pdf",
+      "size": 62634,
+      "path": "./files/하-1-2_하-1-2_장비이력카드.pdf"
+    },
+    {
+      "id": "import-file-20260922-하-1-2-photo",
+      "equipmentId": "import-20260922-하-1-2",
+      "name": "하-1-2_대표사진.png",
+      "type": "image/png",
+      "size": 236222,
+      "path": "./files/하-1-2_하-1-2_대표사진.png"
+    }
+  ]
+}
