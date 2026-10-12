@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#0b1830" />
   <meta name="description" content="코아에너지 계측기관리대장 공개 조회" />
   <link rel="icon" href="./company-logo.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="./styles.css?v=20261011-status-fix" />
+  <link rel="stylesheet" href="./styles.css?v=20261012-management" />
   <title>코아에너지 계측기관리대장</title>
 </head>
 <body>
@@ -20,6 +20,12 @@
       <div><span>검교정 임박</span><strong class="amber" id="dueSoonCount">-</strong><small>대</small></div>
       <div><span>기한 경과</span><strong class="red" id="overdueCount">-</strong><small>대</small></div>
     </section>
+    <nav class="management-bar" aria-label="운영관리">
+      <details class="management-menu" id="publicManagementMenu"><summary>운영관리 ▾</summary><div class="management-menu-items">
+        <button type="button" data-management-open="category" disabled>장비분류관리</button>
+        <button type="button" data-management-open="owner" disabled>보유자별 관리현황</button>
+      </div></details>
+    </nav>
     <section class="panel">
       <div class="panel-head"><div><p>INSTRUMENTS</p><h1>장비 현황</h1></div><button id="excelButton" type="button">엑셀 내려받기</button></div>
       <div class="search"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="장비번호, 장비명, 시리얼번호, 보유자, 모델번호, 제조회사 검색" /><small id="resultCount"></small></div>
@@ -32,7 +38,15 @@
     <header><div><p>EQUIPMENT CARD</p><h2 id="detailTitle"></h2></div><button class="close" type="button" aria-label="닫기">×</button></header>
     <div id="detailBody"></div>
   </dialog>
+  <dialog id="categoryStatusDialog" class="management-dialog" aria-labelledby="categoryStatusTitle">
+    <header><div><p>READ ONLY</p><h2 id="categoryStatusTitle">장비분류관리</h2></div><button class="management-close" type="button" data-management-close aria-label="닫기">×</button></header>
+    <p class="management-note">장비명 · 번호 부여 기준 · 검교정 주기 · 등록 대수 (조회 전용)</p><div class="management-list" id="categoryStatusList"></div>
+  </dialog>
+  <dialog id="ownerStatusDialog" class="management-dialog" aria-labelledby="ownerStatusTitle">
+    <header><div><p>READ ONLY</p><h2 id="ownerStatusTitle">보유자별 관리현황</h2></div><button class="management-close" type="button" data-management-close aria-label="닫기">×</button></header>
+    <p class="management-note">보유자/보관장소별 장비입니다. 장비를 누르면 상세정보를 조회합니다.</p><div class="management-list" id="ownerStatusList"></div>
+  </dialog>
   <div class="toast" id="toast" role="status"></div>
-  <script type="module" src="./app.js"></script>
+  <script type="module" src="./app.js?v=20261012-management"></script>
 </body>
 </html>
